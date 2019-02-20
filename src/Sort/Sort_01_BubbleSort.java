@@ -6,17 +6,21 @@ package Sort;
  * @Email 253757635@qq.com
  * @Description TODO
  */
-public class BubbleSort {
+public class Sort_01_BubbleSort {
 
+    /**
+     * 时间复杂度O(N^2)，额外空间复杂度O(1)
+     * @param arr
+     */
     public static void bubbleSort(int[] arr) {
         if (arr == null || arr.length < 2) {
             return;
         }
 
         for (int i=0; i<arr.length-1; i++) {
-            for (int j=i+1; j<arr.length; j++) {
-                if (arr[i] > arr[j]) {
-                   swap(arr,i,j);
+            for (int j=0; j<arr.length-1; j++) {
+                if (arr[j] > arr[j+1]) {
+                   swap(arr,j,j+1);
                 }
             }
         }

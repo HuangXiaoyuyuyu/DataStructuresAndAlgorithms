@@ -8,6 +8,6 @@ package Sort;
  */
 public class Sort_03_InsertSort {
     public void a () {
-        System.out.println("1 1111111");
+        System.out.println("1 1 111111");
     }
 }

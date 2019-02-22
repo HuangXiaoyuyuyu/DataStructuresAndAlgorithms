@@ -1,9 +1,5 @@
 package Sort;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 /**
  * @Author OliverYu
  * @Date 2019/2/22 10:40
@@ -33,8 +29,6 @@ public class Sort_04_MergeSort_ReverseAlignment {
         return mergeSort(arr,L,mid)
             + mergeSort(arr,mid+1,R)
             + merge(arr,L,mid,R);
-
-
     }
 
     public static int merge(int[] arr,int L,int mid,int R) {

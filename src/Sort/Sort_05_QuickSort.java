@@ -28,8 +28,6 @@ public class Sort_05_QuickSort {
     }
 
     private static int partition(int[] arr, int L, int R) {
-        int i = L;
-        int j = R;
         int pivot = arr[L];
         while (L < R) {
             while (L < R && arr[R] > pivot) {

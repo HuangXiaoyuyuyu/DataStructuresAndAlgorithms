@@ -35,7 +35,7 @@ public class Sort_05_QuickSort_Optimization {
             //如果将第一个数作为荷兰国旗问题的num时
             //可利用随机快排，随机一个索引与数组最后一个数arr[L]交换，再拿它对数组划分
             //这样长期期望的时间复杂度是O(N*logN)
-            swap(arr,L+(int)Math.random()*(R-L+1),L);
+            swap(arr,L+(int)(Math.random()*(R-L+1)),L);
             /*
             //如果将最后一个数作为荷兰国旗问题的num时
             //可利用随机快排，随机一个索引与数组最后一个数arr[L]交换，再拿它对数组划分

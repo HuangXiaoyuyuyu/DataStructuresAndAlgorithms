@@ -17,8 +17,8 @@ public class Sort_01_BubbleSort {
             return;
         }
 
-        for (int i=0; i<arr.length-1; i++) {
-            for (int j=0; j<arr.length-1; j++) {
+        for (int i=arr.length-1; i>0; i--) {
+            for (int j=0; j<i; j++) {
                 if (arr[j] > arr[j+1]) {
                    swap(arr,j,j+1);
                 }

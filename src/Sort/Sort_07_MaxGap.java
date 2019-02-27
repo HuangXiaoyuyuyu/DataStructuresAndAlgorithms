@@ -92,5 +92,4 @@ public class Sort_07_MaxGap {
     public static int bucket(long num,long len,long min,long max) {
         return (int)((num-min)*len/(max-min));
     }
-
 }

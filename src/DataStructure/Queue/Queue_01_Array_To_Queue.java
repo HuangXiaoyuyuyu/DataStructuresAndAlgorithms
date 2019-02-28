@@ -8,6 +8,11 @@ package DataStructure.Queue;
  */
 public class Queue_01_Array_To_Queue {
 
+    /**
+     *
+     *  用数组结构实现大小固定的队列
+     *
+     */
    public static class ArrayQueue {
        private Integer[] arr;
        private Integer start;

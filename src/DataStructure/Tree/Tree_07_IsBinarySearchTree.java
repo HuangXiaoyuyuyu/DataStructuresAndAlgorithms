@@ -8,7 +8,11 @@ import java.util.Stack;
  * @Email 253757635@qq.com
  * @Description TODO
  */
-public class Tree_07_isBST {
+public class Tree_07_IsBinarySearchTree {
+
+    /**
+     * 判断一棵树是否是搜索二叉树
+     */
 
     public static class Node {
         public int data;

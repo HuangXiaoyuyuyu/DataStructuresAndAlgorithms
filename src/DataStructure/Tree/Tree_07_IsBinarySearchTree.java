@@ -8,7 +8,7 @@ import java.util.Stack;
  * @Email 253757635@qq.com
  * @Description TODO
  */
-public class Tree_07_isBST {
+public class Tree_07_IsBinarySearchTree {
 
     public static class Node {
         public int data;

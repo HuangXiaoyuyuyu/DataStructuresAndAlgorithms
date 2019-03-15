@@ -10,10 +10,6 @@ import java.util.Stack;
  */
 public class Tree_07_IsBinarySearchTree {
 
-    /**
-     * 判断一棵树是否是搜索二叉树
-     */
-
     public static class Node {
         public int data;
         public Node left;

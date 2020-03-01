@@ -20,9 +20,7 @@ public class Sort_02_SelectionSort {
         for (int i=0; i<arr.length-1; i++) {
             int minIndex = i;
             for (int j=i+1; j<arr.length; j++) {
-                if (arr[minIndex] > arr[j]) {
-                    minIndex = j;
-                }
+                minIndex = arr[minIndex] > arr[j] ? j : minIndex;
             }
             swap(arr,i,minIndex);
         }

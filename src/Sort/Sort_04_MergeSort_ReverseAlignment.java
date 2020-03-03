@@ -38,7 +38,7 @@ public class Sort_04_MergeSort_ReverseAlignment {
         int p2 = mid + 1;
         int num = 0;
         while (p1 <= mid && p2 <=R) {
-            num += arr[p1] < arr[p2] ? 0 : R-p2+1;
+            num += arr[p1] < arr[p2] ? 0 : mid - p1 + 1;
             temp[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
         }
         while (p1 <= mid) {

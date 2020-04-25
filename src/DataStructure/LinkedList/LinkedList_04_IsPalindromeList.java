@@ -220,8 +220,5 @@ public class LinkedList_04_IsPalindromeList {
         System.out.println(isPalindrome3(head) + " | ");
         printLinkedList(head);
         System.out.println("=========================");
-
     }
-
-
 }

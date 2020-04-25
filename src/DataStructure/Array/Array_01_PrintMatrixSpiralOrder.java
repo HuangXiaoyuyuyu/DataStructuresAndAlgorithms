@@ -44,20 +44,16 @@ public class Array_01_PrintMatrixSpiralOrder {
             int curR = tR;
             int curC = tC;
             while (curC != bC) {
-                System.out.print(matrix[tR][curC] + " ");
-                curC ++;
+                System.out.print(matrix[tR][curC++] + " ");
             }
             while (curR != bR) {
-                System.out.print(matrix[curR][bC] + " ");
-                curR ++;
+                System.out.print(matrix[curR++][bC] + " ");
             }
             while (curC != tC) {
-                System.out.print(matrix[bC][curC] + " ");
-                curC --;
+                System.out.print(matrix[bC][curC--] + " ");
             }
             while (curR != tR) {
-                System.out.print(matrix[curR][tC] + " ");
-                curR --;
+                System.out.print(matrix[curR--][tC] + " ");
             }
         }
     }

@@ -43,7 +43,7 @@ public class Tree_06_IsBalancedTree {
         if (Math.abs(LH - RH) > 1) {
             res[0] = false;
         }
-        return Math.max(LH,RH) + 1;
+        return Math.max(LH,RH);
     }
 
     public static void main(String[] args) {
